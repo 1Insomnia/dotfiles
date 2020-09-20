@@ -1,0 +1,26 @@
+[
+	{ "keys": ["alt+left"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+	{ "keys": ["alt+right"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    // VS Code like kbd
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+    { "keys": ["ctrl+b"], "command": "toggle_side_bar" },
+    {"keys": ["ctrl+k", "ctrl+o"], "command": "prompt_open_folder",},
+    // Expand region sementically
+    { "keys": ["alt+z"], "command": "expand_selection", "args": {"to": "scope"}},
+    { "keys": ["ctrl+k", "ctrl+b"], "command": "build" },
+    // Pop Terminal either in new window or bottom screen
+    {
+        "keys": ["ctrl+alt+t"], "command": "terminus_open", "args": {
+            "cwd": "${file_path:${folder}}"
+        }
+    },
+    {
+        "keys": ["ctrl+`"], "command": "toggle_terminus_panel"
+    },
+]
+
+
+
+
+

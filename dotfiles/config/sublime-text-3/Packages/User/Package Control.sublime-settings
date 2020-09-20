@@ -1,0 +1,35 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"Alignment",
+		"Babel",
+		"BracketHighlighter",
+		"Color Highlight",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"Gutter Color",
+		"Horizon Color Scheme",
+		"JsPrettier",
+		"MarkdownPreview",
+		"Material Theme",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"sublimelint",
+		"SublimeLinter",
+		"SublimeLinter-contrib-sublime-syntax",
+		"SublimeLinter-flake8",
+		"SublimeREPL",
+		"Terminal",
+		"Terminus",
+		"Theme - Cobalt2"
+	]
+}

@@ -24,6 +24,21 @@ dotfiles:
   d_alacritty:
     src: config/alacritty
     dst: ~/.config/alacritty
+  f_keybindings.json:
+    src: config/Code - Insiders/User/keybindings.json
+    dst: ~/.config/Code - Insiders/User/keybindings.json
+  f_settings.json:
+    src: config/Code - Insiders/User/settings.json
+    dst: ~/.config/Code - Insiders/User/settings.json
+  f_preferences.sublime-settings:
+    src: config/sublime-text-3/Packages/User/Preferences.sublime-settings
+    dst: ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+  f_default-(linux).sublime-keymap:
+    src: config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap
+    dst: ~/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap
+  f_package-control.sublime-settings:
+    src: config/sublime-text-3/Packages/User/Package Control.sublime-settings
+    dst: ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
 profiles:
   horizon:
     dotfiles:
@@ -34,3 +49,8 @@ profiles:
     - d_sxhkd
     - d_kitty
     - d_alacritty
+    - f_keybindings.json
+    - f_settings.json
+    - f_preferences.sublime-settings
+    - f_default-(linux).sublime-keymap
+    - f_package-control.sublime-settings
