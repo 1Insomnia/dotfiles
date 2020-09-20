@@ -39,6 +39,12 @@ dotfiles:
   f_package-control.sublime-settings:
     src: config/sublime-text-3/Packages/User/Package Control.sublime-settings
     dst: ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
+  d_rofi:
+    src: config/rofi
+    dst: ~/.config/rofi
+  f_starship.toml:
+    src: config/starship.toml
+    dst: ~/.config/starship.toml
 profiles:
   horizon:
     dotfiles:
@@ -54,3 +60,5 @@ profiles:
     - f_preferences.sublime-settings
     - f_default-(linux).sublime-keymap
     - f_package-control.sublime-settings
+    - d_rofi
+    - f_starship.toml

@@ -1,0 +1,69 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+prompt_order = [
+    "username",
+    "hostname",
+    # "kubernetes",
+    "directory",
+    "git_branch",
+    "git_commit",
+    "git_state",
+    "git_status",
+    "hg_branch",
+    # "docker_context",
+    "package",
+    # "dotnet",
+    # "elixir",
+    # "elm",
+    # "erlang",
+    # "golang",
+    # "java",
+    # "julia",
+    # "nim",
+    "nodejs",
+    # "ocaml",
+    # "php",
+    # "purescript",
+    "python",
+    # "ruby",
+    "rust",
+    # "terraform",
+    # "zig",
+    # "nix_shell",
+    "conda",
+    "memory_usage",
+    # "aws",
+    "env_var",
+    # "crystal",
+    "cmd_duration",
+    "custom",
+    "jobs",
+    "battery",
+    "time",
+    "character",
+]
+# Replace the "❯" symbol in the prompt with "➜"
+[character]      # The name of the module we are configuring is "character"
+symbol = "●"     # The "symbol" segment is being set to "➜"
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+[battery]
+full_symbol = "🔋"
+charging_symbol = "⚡️"
+discharging_symbol = "💀"
+
+[[battery.display]]  # "bold red" style when capacity is between 0% and 10%
+threshold = 10
+style = "bold red"
+
+[[battery.display]]  # "bold yellow" style when capacity is between 10% and 30%
+threshold = 30
+style = "bold yellow"
+
+[[battery.display]]  # "bold yellow" style when capacity is between 10% and 30%
+threshold = 98
+style = "bold green"
