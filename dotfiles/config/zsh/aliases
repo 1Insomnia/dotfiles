@@ -1,0 +1,81 @@
+#!/bin/sh
+
+# Text editors shortcuts
+alias v="nvim"
+alias vi="nvim"
+alias sv="sudo nvim"
+
+alias st="subl3"
+alias stt="subl3 ."
+
+alias libre="libreoffice"
+
+# Replace ls with exa
+alias ls="exa"
+alias ll="exa -l"
+alias la="exa -la"
+alias lah="exa -lah"
+
+# config files access
+alias zconf="nvim ~/.zshrc"
+alias iconf="nvim ~/.config/i3/config"
+alias pconf="cd ~/.config/polybar/ && nvim"
+alias kconf="nvim ~/.config/kitty/kitty.conf"
+alias aconf="nvim ~/.config/zsh/aliases"
+alias vconf="cd ~/.config/nvim/ && nvim"
+
+# Node & Npm
+alias n="node"
+alias npmi="npm i"
+alias npmig="npm i -G"
+alias npmid="npm i -D"
+
+# Git 
+alias ga="git add ."
+alias gc="git commit"
+alias gpush="git push"
+alias gpull="git pull"
+alias gfetch="git fetch"
+alias diff="git diff "
+alias gname="git --config global user.name"
+alias gmail="git --config global user.mail"
+
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias configa="config add"
+alias configc="config commit"
+alias configp="config push"
+
+# Dotdrop
+alias dotdrop='/home/r0b0t/dotfiles/dotdrop.sh --cfg=/home/r0b0t/dotfiles/config.yaml'
+
+# Misc
+alias p3="python3"
+
+# Systemctl
+alias sus="sleep 2 && systemctl suspend"
+alias sn="sleep 2 && shutdown now"
+
+# fasd
+alias a='fasd -a'        # any
+alias s='fasd -si'       # show / search / select
+alias d='fasd -d'        # directory
+alias f='fasd -f'        # file
+alias sd='fasd -sid'     # interactive directory selection
+alias sf='fasd -sif'     # interactive file selection
+alias z='fasd_cd -d'     # cd, same functionality as j in autojump
+alias zz='fasd_cd -d -i' # cd with interactive selection
+
+# Suckless stuff
+alias build="rm -f config.h && sudo make clean install"
+alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
+alias clean='git checkout master && make clean && rm -f config.h'
+
+# Pacman
+alias pacr='sudo pacman -Rs'
+alias pac='sudo pacman -S'
+alias pacu='sudo pacman -Syu'
+alias pacuu='sudo pacman -Syyuu'
+alias pacc='sudo pacman -Rns $(pacman -Qqtd)'
+alias pacs='sudo pacman -Ss'
+alias pacclean='sudo pacman -Sc'
+alias paci='sudo pacman -Qi'

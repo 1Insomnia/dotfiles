@@ -1,0 +1,36 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  f_zshrc:
+    src: zshrc
+    dst: ~/.zshrc
+  d_i3:
+    src: config/i3
+    dst: ~/.config/i3
+  d_polybar:
+    src: config/polybar
+    dst: ~/.config/polybar
+  d_zsh:
+    src: config/zsh
+    dst: ~/.config/zsh
+  d_sxhkd:
+    src: config/sxhkd
+    dst: ~/.config/sxhkd
+  d_kitty:
+    src: config/kitty
+    dst: ~/.config/kitty
+  d_alacritty:
+    src: config/alacritty
+    dst: ~/.config/alacritty
+profiles:
+  horizon:
+    dotfiles:
+    - f_zshrc
+    - d_i3
+    - d_polybar
+    - d_zsh
+    - d_sxhkd
+    - d_kitty
+    - d_alacritty
