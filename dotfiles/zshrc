@@ -6,9 +6,24 @@ export EDITOR='nvim'
 export PATH="$HOME/bin":$PATH
 export PATH="$HOME/.local/bin":$PATH
 export PATH="$HOME/.nvm/node_modules/.bin:$PATH"
+#export PATH="$HOME/.cargo/bin":$PATH
 # Always use nvm for node
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/r0b0t/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/r0b0t/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/r0b0t/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/r0b0t/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
 
 # Antigen stuff
 #antigen theme geometry-zsh/geometry
@@ -17,6 +32,7 @@ antigen bundle pip
 #antigen bundle npm
 #antigen bundle z
 #antigen bundle fasd
+antigen bundle jump
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 # Theme
@@ -24,6 +40,6 @@ antigen bundle zsh-users/zsh-autosuggestions
 #antigen theme denysdovhan/spaceship-prompt
 antigen apply
 #source ~/.oh-my-zsh/custom/themes/jovial.zsh-theme
-#eval "$(fasd --init auto)"
+eval "$(fasd --init auto)"
 eval "$(starship init zsh)"
 source ~/.config/zsh/aliases

@@ -48,6 +48,18 @@ dotfiles:
   d_icons:
     src: local/share/icons
     dst: ~/.local/share/icons
+  f_zshrc_1:
+    src: zshrc
+    dst: ~/.zshrc
+  d_config_kitty:
+    src: config/kitty
+    dst: ~/.config/kitty
+  d_xrdb:
+    src: xrdb
+    dst: ~/.xrdb
+  f_xresources:
+    src: Xresources
+    dst: ~/.Xresources
 profiles:
   horizon:
     dotfiles:
@@ -66,3 +78,9 @@ profiles:
     - d_rofi
     - f_starship.toml
     - d_icons
+  manjaro:
+    dotfiles:
+    - f_zshrc_1
+    - d_config_kitty
+    - d_xrdb
+    - f_xresources
