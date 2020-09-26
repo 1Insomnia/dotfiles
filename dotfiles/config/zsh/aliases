@@ -1,5 +1,4 @@
-#!/bin/sh
-
+#!/bin/sh 
 # Text editors shortcuts
 alias v="nvim"
 alias vi="nvim"
@@ -7,6 +6,8 @@ alias sv="sudo nvim"
 
 alias st="subl3"
 alias stt="subl3 ."
+
+alias code="code-insiders"
 
 alias libre="libreoffice"
 
@@ -23,6 +24,7 @@ alias pconf="cd ~/.config/polybar/ && nvim"
 alias kconf="nvim ~/.config/kitty/kitty.conf"
 alias aconf="nvim ~/.config/zsh/aliases"
 alias vconf="cd ~/.config/nvim/ && nvim"
+alias awconf="cd ~/.config/awesome/ && nvim"
 
 # Node & Npm
 alias n="node"
@@ -39,14 +41,11 @@ alias gfetch="git fetch"
 alias diff="git diff "
 alias gname="git --config global user.name"
 alias gmail="git --config global user.mail"
-
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-alias configa="config add"
-alias configc="config commit"
-alias configp="config push"
+alias branch="git branch -v"
+alias remote="git remote -v"
 
 # Dotdrop
-alias dotdrop='/home/r0b0t/dotfiles/dotdrop.sh --cfg=/home/r0b0t/dotfiles/config.yaml'
+alias dot='/home/r0b0t/dotfiles/dotdrop.sh --cfg=/home/r0b0t/dotfiles/config.yaml'
 
 # Misc
 alias p3="python3"
@@ -79,3 +78,7 @@ alias pacc='sudo pacman -Rns $(pacman -Qqtd)'
 alias pacs='sudo pacman -Ss'
 alias pacclean='sudo pacman -Sc'
 alias paci='sudo pacman -Qi'
+alias pacrank='sudo pacman-mirrors --fasttrack && sudo pacman -Syyu'
+
+# Jump
+alias j="jump"
