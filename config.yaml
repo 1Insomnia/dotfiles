@@ -60,6 +60,21 @@ dotfiles:
   f_xresources:
     src: Xresources
     dst: ~/.Xresources
+  f_config.fish:
+    src: config/fish/config.fish
+    dst: ~/.config/fish/config.fish
+  d_config_zsh:
+    src: config/zsh
+    dst: ~/.config/zsh
+  f_tmux.conf:
+    src: tmux.conf
+    dst: ~/.tmux.conf
+  f_config_starship.toml:
+    src: config/starship.toml
+    dst: ~/.config/starship.toml
+  d_redshift:
+    src: config/redshift
+    dst: ~/.config/redshift
 profiles:
   horizon:
     dotfiles:
@@ -84,3 +99,8 @@ profiles:
     - d_config_kitty
     - d_xrdb
     - f_xresources
+    - f_config.fish
+    - d_config_zsh
+    - f_tmux.conf
+    - f_config_starship.toml
+    - d_redshift
