@@ -1,7 +1,5 @@
 configuration {
   modi: "run,drun,window";
-  width: 50;
-  font: "Cozette 16";
   terminal: "alacritty";
   disable-history: false;
   sidebar-mode: true;
@@ -12,7 +10,7 @@ configuration {
   separator-style: "none";
   hide-scrollbar: true;
   window-format: "{w} {c}";
-  show-icons: true;
+  show-icons: false;
 }
 
 * {
@@ -25,8 +23,7 @@ configuration {
 }
 
 window {
-  padding: 32px;
-  border-radius: 16px;
+  padding: 15px;
 }
 
 prompt, entry {

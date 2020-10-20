@@ -7,47 +7,28 @@ window:
         lines: 0
 
     padding:
-        x: 1
-        y: 1
+        x: 15
+        y: 15
 
 # When true, bold text is drawn using the bright variant of colors.
 draw_bold_text_with_bright_colors: false
 
-# Font configuration (changes require restart)
-#
-# Important font attributes like antialiasing, subpixel aa, and hinting can be
-# controlled through fontconfig. Specifically, the following attributes should
-# have an effect:
-#
-# * hintstyle
-# * antialias
-# * lcdfilter
-# * rgba
-#
-# For instance, if you wish to disable subpixel antialiasing, you might set the
-# rgba property to "none". If you wish to completely disable antialiasing, you
-# can set antialias to false.
-#
-# Please see these resources for more information on how to use fontconfig
-#
-# * https://wiki.archlinux.org/index.php/font_configuration#Fontconfig_configuration
-# * file:///usr/share/doc/fontconfig/fontconfig-user.html
 font:
   # The normal (roman) font face to use.
   normal:
-    family: MonoLisa 
+    family: Cartograph CF
     # Style can be specified to pick a specific face.
-    style: Black
+    style: Regular
 
   # The bold font face
   bold:
-    family: MonoLisa
+    family: Cartograph CF
     # Style can be specified to pick a specific face.
     style: Bold
 
   # The italic font face
   italic:
-    family: MonoLisa 
+    family: Cartograph CF 
     # Style can be specified to pick a specific face.
     style: Italic
 
@@ -296,29 +277,70 @@ key_bindings:
   - { key: F11,      mods: Super,   chars: "\x1b[23;3~"                  }
   - { key: F12,      mods: Super,   chars: "\x1b[24;3~"                  }
 
+# Colorscheme 
 
+# colors:
+#   # Default colors
+#   primary:
+#     background: '0xfafafa'
+#     foreground: '0x383a42'
+
+#   # Colors the cursor will use if `custom_cursor_colors` is true
+#   cursor:
+#     text:   '0xfafafa'
+#     cursor: '0xf31459'
+
+#   # Normal colors
+#   normal:
+#     black:   '0xfafafa'
+#     red:     '0xca1243'
+#     green:   '0x50a14f'
+#     yellow:  '0xc18401'
+#     blue:    '0x4078f2'
+#     magenta: '0xa626a4'
+#     cyan:    '0x0184bc'
+#     white:   '0x383a42'
+
+#   # Bright colors
+#   bright:
+#     black:   '0xa0a1a7'
+#     red:     '0xd75f00'
+#     green:   '0xf0f0f1'
+#     yellow:  '0xe5e5e6'
+#     blue:    '0x696c77'
+#     magenta: '0x202227'
+#     cyan:    '0x986801'
+#     white:   '0x090a0b'
 
 colors:
-    primary:
-        background: "0x0F1212"
-        foreground: "0xE9E9E9"
+  # Default colors
+  primary:
+    background: '0x222222'
+    foreground: '0xabb2bf'
 
-    normal:
-        black: "0x131717"
-        red: "0xf07f7f"
-        green: "0x7ff088"
-        yellow: "0xeef07f"
-        blue: "0x7facf0"
-        magenta: "0xd67ff0"
-        cyan: "0x7fe7f0"
-        white: "0xE9E9E9"
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text:   '0x000000'
+    cursor: '0xfc4a6d'
 
-    bright:
-        black: "0x928374"
-        red: "0xed9a9a"
-        green: "0x9ef0a5"
-        yellow: "0xe7e897"
-        blue: "0x98b9eb"
-        magenta: "0xd196e3"
-        cyan: "0x94dae0"
-        white: "0xe3e333"
+  # Normal colors
+  normal:
+    black:   '0x4a505d'
+    red:     '0xf81141'
+    green:   '0x23974a'
+    yellow:  '0xfd7e57'
+    blue:    '0x285bff'
+    magenta: '0x8c62fd'
+    cyan:    '0x366f9a'
+    white:   '0xccd5e5'
+
+  # Bright colors
+  bright:
+    black:   '0x61697a'
+    red:     '0xfc4a6d'
+    green:   '0x37bd58'
+    yellow:  '0xf6be48'
+    blue:    '0x199ffd'
+    magenta: '0xfc58f6'
+    cyan:    '0x50acae'
+    white:   '0xffffff'

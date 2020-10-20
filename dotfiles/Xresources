@@ -4,93 +4,56 @@
 ! ░██╔██╗░██╔══██╗██╔══╝░░╚════██║██║░░░██║██║░░░██║██╔══██╗██║░░░░░██╔══╝░░╚════██║
 ! ██╔╝░██╗██║░░██║███████╗███████║╚██████╔╝╚██████╔╝██║░░██║╚██████╗███████╗███████║
 ! ╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚══════╝░╚═════╝░░╚═════╝░╚═╝░░╚═╝░╚═════╝╚══════╝╚══════╝
-!
-! -----------------------------------
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rightScrollBar: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
 
-Xft.dpi									: 96
-Xft.antialias							: true
-Xft.hinting							: true
-Xft.rightScrollBar 					: rgb
-Xft.autohint							: false
-Xft.hintstyle							: hintslight
-Xft.lcdfilter							: lcddefault
+/* TokyoNight */
+/* *foreground: #a9b1d6 */
+/* *background: #1a1b26 */
+/* *cursorColor: #e06c75 */
 
-! -
-! - URxvt
-! -
+/* *color0: #32344a */
+/* *color1: #f7768e */
+/* *color2: #9ece6a */
+/* *color3: #e0af68 */
+/* *color4: #7aa2f7 */
+/* *color5: #ad8ee6 */
+/* *color6: #449dab */
+/* *color7: #787c99 */
 
-URxvt.cursorBlink : 1
-URxvt.font        					: xft:MesloLGS NF:pixelsize=13:antialias=true,xft:MesloLGS NF
-URxvt.boldFont    					: xft:MesloLGS NF:pixelsize=13:weight=bold:antialias=true,xft:MesloLGS NF
-URxvt.italicFont  					: xft:MesloLGS NF:pixelsize=13:weight=italic:antialias=true,xft:MesloLGS NF
+/* *color8:  #444b6a */
+/* *color9:  #ff7a93 */
+/* *color10: #b9f27c */
+/* *color11: #ff9e64 */
+/* *color12: #7da6ff */
+/* *color13: #bb9af7 */
+/* *color14: #0db9d7 */
+/* *color15: #acb0d0 */
 
-URxvt.lineSpace           			: 0
-URxvt.letterSpace         		: -1
-URxvt.scrollBar           			: false
-URxvt.internalBorder      		: 32
-URxvt.geometry            		: 70x13
-URxvt.thickness           			: 5
-URxvt.titleBar            			: true
-URxvt.intensityStyles     		: false
-URxvt.scrollTtyKeypress   	: true
-URxvt.scrollTtyOutput     		: true
-URxvt.cursorUnderline	  		: true
-URxvt*allow_bold		  			: true
-URxvt*iso14755			  			: False
+/* LightHaus */
+*foreground:  #FFEE79
+*background:  #18191E
+*cursorColor: #FFFF00
 
-! -
-! - URxvt Extensions
-! -
+*color0: #18191E
+*color1: #FC2929
+*color2: #44B273
+*color3: #E25600
+*color4: #1D918B
+*color5: #D16BB7
+*color6: #00BFA4
+*color7: #CCCCCC
 
-URxvt.perl-ext-common		: fullscreen,resize-font,matcher,clipboard
-URxvt.keysym.F11					: perl:fullscreen:switch
-URxvt.keysym.C-Down			: resize-font:smaller
-URxvt.keysym.C-Up				: resize-font:bigger
-URxvt.url-launcher				: firefox
-URxvt.matcher.button			: 1
-
-
-! -
-! - Color
-! -
-
-#include 								".xrdb/color/elena"
-
-! -
-! - XTerm
-! -
-
-xterm*letterSpace					: 0
-xterm*faceName 					: xft:MesloLGS NF
-xterm*faceSize 					: 10
-xterm*internalBorder 			: 32
-xterm*vt100*geometry 			: 70x13
-xterm*saveLines 					: 16384
-xterm*loginShell 					: true
-xterm*charClass 					: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
-xterm*termName 					: xterm-color
-xterm*eightBitInput 				: false
-
-
-! -
-! - UXTerm
-! -
-
-UXTerm*termName 				: xterm-256color
-UXTerm*VT100.geometry		: 70x13
-UXTerm*faceName           	: xft:MesloLGS NF
-UXTerm*faceSize		   			: 10
-UXTerm*dynamicColors     	: true
-UXTerm*utf8               			: 2
-UXTerm*eightBitInput      		: true
-UXTerm*saveLines          		: 16384
-UXTerm*scrollKey          		: true
-UXTerm*scrollTtyOutput    	: false
-UXTerm*scrollBar          		: false
-UXTerm*rightScrollBar     		: false
-UXTerm*jumpScroll         		: true
-UXTerm*multiScroll        		: true
-UXTerm*toolBar            		: false
-UXTerm*boldMode 				: false
-UXTerm*colorBDMode 			: true
-UXTerm*colorBD 					: rgb:3f/3f/3f
+*color8:  #21252D
+*color9:  #FF5050
+*color10: #50C16E
+*color11: #ED722E
+*color12: #47A8A1
+*color13: #D68EB2
+*color14: #5AD1AA
+*color15: #FFFADE

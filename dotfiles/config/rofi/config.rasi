@@ -1,0 +1,15 @@
+configuration {
+	theme:				"/home/r0b0t/.config/rofi/themes/skybox.rasi";
+	font:				"Cozette 12";
+	combi-modi:			"drun,window,run";
+	width:				18;
+	eh:					1;
+	bw:					3;
+	lines:				12;
+	sidebar-mode:		false;
+	location:			0;
+	icon-theme:			"Papirus-Dark";
+	show-icons:			false;
+	separator-style:	none;
+}
+/* @import "/home/r0b0t/.config/rofi/themes/theme.rasi" */
