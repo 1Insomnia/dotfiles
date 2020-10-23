@@ -17,14 +17,13 @@ font pango: Cozette 12
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec kitty
-#bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+c kill
 
 # Rofi comme lanceur d'application
-bindsym $mod+d exec sh ~/.config/rofi/launcher.sh 
+bindsym $mod+d exec rofi -matching fuzzy -show combi
 
 # Changement du Focus
 bindsym $mod+h focus left
@@ -137,9 +136,9 @@ workspace $ws2 output $monitorRight
 workspace $ws3 output $monitorRight
 workspace $ws4 output $monitorRight
 workspace $ws5 output $monitorRight
-workspace $ws6 output $monitorRight
-workspace $ws7 output $monitorRight
-workspace $ws8 output $monitorRight
+workspace $ws6 output $monitorLeft
+workspace $ws7 output $monitorLeft
+workspace $ws8 output $monitorLeft
 workspace $ws9 output $monitorLeft
 workspace $ws10 output $monitorLeft
 
@@ -178,24 +177,22 @@ floating_minimum_size 75 x 50
 floating_maximum_size -1 x -1
 
 # class                 border  bground text    indicator child_border
-client.focused          #7FF088 #0F1212 #E9E9E9 #7FF088   #285577
-client.focused_inactive #0F1212 #0F1212 #E9E9E9 #484E50   #5F676A
-client.unfocused        #333333 #0F1212 #E9E9E9 #292D2E   #222222
-client.urgent           #F07F7F #0F1212 #E9E9E9 #900000   #900000
-client.placeholder      #000000 #0F1212 #E9E9E9 #000000   #0C0C0C
+client.focused          #7FF088 #1e2127 #abb2bf #7FF088   #fec309
+client.focused_inactive #1e2127 #1e2127 #abb2bf #484E50   #5F676A
+client.unfocused        #1e2127 #1e2127 #abb2bf #292D2E   #222222
+client.urgent           #1e2127 #1e2127 #abb2bf #900000   #900000
+client.placeholder      #1e2127 #1e2127 #abb2bf #000000   #1e2127
 
-client.background       #E9E9E9
+client.background       #abb2bf 
 
 ###############################
 #          STARTUP            #
 ###############################
-#exec --no-startup-id compton
 exec --no-startup-id dropbox
-exec --no-startup-id redshift
 exec --no-startup-id dunst
 #exec --no-startup-id picom
 exec --no-startup-id xrandr --output HDMI1 --auto --right-of eDP1
-exec --no-startup-id feh --bg-scale ~/.config/i3/walls/catalina.jpg
+exec --no-startup-id feh --bg-scale ~/.config/i3/walls/otone.png
 # Pamac Manager a besoin de ça pour gérer l'authentification
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 

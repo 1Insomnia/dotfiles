@@ -28,7 +28,8 @@ font:
 
   # The italic font face
   italic:
-    family: Cartograph CF 
+    # family: MonoLisa
+    family: Cartograph CF
     # Style can be specified to pick a specific face.
     style: Italic
 
@@ -312,35 +313,68 @@ key_bindings:
 #     cyan:    '0x986801'
 #     white:   '0x090a0b'
 
+# colors:
+#   # Default colors
+#   primary:
+#     background: '0x282c34'
+#     foreground: '0xabb2bf'
+
+#   # Colors the cursor will use if `custom_cursor_colors` is true
+#   cursor:
+#     text:   '0x282c34'
+#     cursor: '0xffcc00'
+
+#   # Normal colors
+#   normal:
+#     black:   '0x4a505d'
+#     red:     '0xf81141'
+#     green:   '0x23974a'
+#     yellow:  '0xfd7e57'
+#     blue:    '0x285bff'
+#     magenta: '0x8c62fd'
+#     cyan:    '0x366f9a'
+#     white:   '0xccd5e5'
+
+#   # Bright colors
+#   bright:
+#     black:   '0x61697a'
+#     red:     '0xfc4a6d'
+#     green:   '0x37bd58'
+#     yellow:  '0xf6be48'
+#     blue:    '0x199ffd'
+#     magenta: '0xfc58f6'
+#     cyan:    '0x50acae'
+#     white:   '0xffffff'
+
 colors:
   # Default colors
   primary:
-    background: '0x222222'
-    foreground: '0xabb2bf'
+    background: '0x17273e'
+    foreground: '0xeeeeee'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text:   '0x000000'
-    cursor: '0xfc4a6d'
+    text:   '0x17273e'
+    cursor: '0xffcc00'
 
   # Normal colors
   normal:
-    black:   '0x4a505d'
-    red:     '0xf81141'
-    green:   '0x23974a'
-    yellow:  '0xfd7e57'
-    blue:    '0x285bff'
-    magenta: '0x8c62fd'
-    cyan:    '0x366f9a'
-    white:   '0xccd5e5'
+    black:   '0x263640'
+    red:     '0xe35430'
+    green:   '0xf5d65a'
+    yellow:  '0xf2a846'
+    blue:    '0x5692d6'
+    magenta: '0x976eff'
+    cyan:    '0x83bdde'
+    white:   '0xe0e8f3'
 
   # Bright colors
   bright:
-    black:   '0x61697a'
-    red:     '0xfc4a6d'
-    green:   '0x37bd58'
-    yellow:  '0xf6be48'
-    blue:    '0x199ffd'
-    magenta: '0xfc58f6'
-    cyan:    '0x50acae'
-    white:   '0xffffff'
+    black:   '0x4a697d'
+    red:     '0xe35430'
+    green:   '0xf5d65a'
+    yellow:  '0xf2a846'
+    blue:    '0x5692d6'
+    magenta: '0x976eff'
+    cyan:    '0x83bdde'
+    white:   '0xe0e8f3'

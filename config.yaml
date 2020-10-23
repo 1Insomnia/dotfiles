@@ -87,6 +87,18 @@ dotfiles:
   d_ncmpcpp:
     src: config/ncmpcpp
     dst: ~/.config/ncmpcpp
+  d_config_polybar:
+    src: config/polybar
+    dst: ~/.config/polybar
+  d_scripts:
+    src: Scripts
+    dst: ~/Scripts
+  d_dunst:
+    src: config/dunst
+    dst: ~/.config/dunst
+  d_config_i3:
+    src: config/i3
+    dst: ~/.config/i3
 profiles:
   horizon:
     dotfiles:
@@ -120,3 +132,7 @@ profiles:
     - d_config_alacritty
     - d_mpd
     - d_ncmpcpp
+    - d_config_polybar
+    - d_scripts
+    - d_dunst
+    - d_config_i3
