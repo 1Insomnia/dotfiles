@@ -1,4 +1,6 @@
 configuration {
-    theme:                          "/home/r0b0t/.config/rofi/clean.rasi";
+    /* theme:                          "/home/r0b0t/.config/rofi/clean.rasi"; */
+    theme:                          "/home/r0b0t/.config/rofi/rofi.rasi";
+ 	combi-modi:			"drun,run,window";
 }
 

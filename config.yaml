@@ -99,6 +99,15 @@ dotfiles:
   d_config_i3:
     src: config/i3
     dst: ~/.config/i3
+  d_zathura:
+    src: config/zathura
+    dst: ~/.config/zathura
+  f_user_settings.json:
+    src: config/Code/User/settings.json
+    dst: ~/.config/Code/User/settings.json
+  f_user_keybindings.json:
+    src: config/Code/User/keybindings.json
+    dst: ~/.config/Code/User/keybindings.json
 profiles:
   horizon:
     dotfiles:
@@ -136,3 +145,6 @@ profiles:
     - d_scripts
     - d_dunst
     - d_config_i3
+    - d_zathura
+    - f_user_settings.json
+    - f_user_keybindings.json

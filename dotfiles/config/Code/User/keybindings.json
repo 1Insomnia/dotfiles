@@ -1,0 +1,33 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+down",
+    "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+i",
+    "command": "-editor.action.insertCursorAtEndOfEachLineSelected",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+left",
+    "command": "cursorLineStart"
+  },
+  {
+    "key": "alt+right",
+    "command": "cursorLineEnd"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "-editor.action.toggleTabFocusMode"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "editor.action.jumpToBracket"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "bracket-pair-colorizer.expandBracketSelection"
+  }
+]

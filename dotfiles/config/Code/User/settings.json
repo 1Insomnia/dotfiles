@@ -1,0 +1,72 @@
+{
+  "emmet.excludeLanguages": [],
+  "emmet.includeLanguages": {
+    "markdown": "html"
+  },
+  "files.associations": {
+    "*.css": "postcss",
+    "*.js": "javascriptreact"
+  },
+  // Editing
+  "editor.lineHeight": 20,
+  "editor.letterSpacing": 0.5,
+  "editor.fontWeight": "400",
+  "editor.fontFamily": "Cartograph CF",
+  "editor.tabSize": 2,
+  "editor.fontSize": 18.3,
+  "editor.cursorWidth": 3,
+  "workbench.sideBar.location": "left",
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.tokenColorCustomizations": {},
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.parameterHints.enabled": false,
+  "workbench.settings.editor": "ui",
+  "editor.scrollBeyondLastLine": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.statusBar.visible": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "git.enabled": true,
+  "[svg]": {
+    "editor.tabSize": 2
+  },
+  "editor.hover.enabled": false,
+  "terminal.integrated.lineHeight": 1.125,
+  "terminal.integrated.fontsize": 16,
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "search.useIgnoreFiles": false,
+  "prettier.disableLanguages": [
+    "yaml",
+    "yml",
+    "toml"
+  ],
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.autoReveal": false,
+  "html.format.enable": false,
+  "explorer.confirmDelete": false,
+  "breadcrumbs.enabled": false,
+  "editor.tabCompletion": "onlySnippets",
+  "editor.snippetSuggestions": "top",
+  "workbench.editor.showTabs": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 5,
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": true,
+  "workbench.activityBar.visible": false,
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "all",
+  "window.menuBarVisibility": "toggle",
+  "editor.renderLineHighlight": "none",
+  "editor.cursorBlinking": "smooth",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Bluloco Dark"
+}

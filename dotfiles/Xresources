@@ -12,48 +12,141 @@ Xft.autohint: false
 Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
-/* TokyoNight */
-/* *foreground: #a9b1d6 */
-/* *background: #1a1b26 */
-/* *cursorColor: #e06c75 */
+! One Dark
+/* *foreground:  #abb2bf */ 
+/* *background:  #282c34 */
+/* *cursorColor: #d19a66 */
 
-/* *color0: #32344a */
-/* *color1: #f7768e */
-/* *color2: #9ece6a */
-/* *color3: #e0af68 */
-/* *color4: #7aa2f7 */
-/* *color5: #ad8ee6 */
-/* *color6: #449dab */
-/* *color7: #787c99 */
+/* *color0: #1e2127 */
+/* *color1: #e06c75 */
+/* *color2: #98c379 */
+/* *color3: #d19a66 */
+/* *color4: #61afef */
+/* *color5: #c678dd */
+/* *color6: #56b6c2 */
+/* *color7: #828791 */
 
-/* *color8:  #444b6a */
-/* *color9:  #ff7a93 */
-/* *color10: #b9f27c */
-/* *color11: #ff9e64 */
-/* *color12: #7da6ff */
-/* *color13: #bb9af7 */
-/* *color14: #0db9d7 */
-/* *color15: #acb0d0 */
+/* *color8:  #5c6370 */
+/* *color9:  #e06c75 */
+/* *color10: #98c379 */
+/* *color11: #d19a66 */
+/* *color12: #61afef */
+/* *color13: #c678dd */
+/* *color14: #56b6c2 */
+/* *color15: #e6efff */
 
-/* LightHaus */
-*foreground:  #FFEE79
-*background:  #18191E
-*cursorColor: #FFFF00
+! TokyoNight 
+! *foreground: #a9b1d6 
+! *background: #1a1b26 
+! *cursorColor: #e06c75
+! 
+! *color0: #32344a 
+! *color1: #f7768e 
+! *color2: #9ece6a 
+! *color3: #e0af68 
+! *color4: #7aa2f7 
+! *color5: #ad8ee6 
+! *color6: #449dab 
+! *color7: #787c99 
+! 
+! *color8:  #444b6a
+! *color9:  #ff7a93
+! *color10: #b9f27c
+! *color11: #ff9e64
+! *color12: #7da6ff
+! *color13: #bb9af7
+! *color14: #0db9d7
+! *color15: #acb0d0
+! 
+! LightHaus
+! *foreground:  #FFEE79
+! *background:  #18191E
+! *cursorColor: #FFFF00
+! 
+! *color0: #18191E
+! *color1: #FC2929
+! *color2: #44B273
+! *color3: #E25600
+! *color4: #1D918B
+! *color5: #D16BB7
+! *color6: #00BFA4
+! *color7: #CCCCCC
+! 
+! *color8:  #21252D
+! *color9:  #FF5050
+! *color10: #50C16E
+! *color11: #ED722E
+! *color12: #47A8A1
+! *color13: #D68EB2
+! *color14: #5AD1AA
+! *color15: #FFFADE
+! 
+! BluLocoDark */
+! *foreground:  #abb2bf
+! *background:  #282c34
+! *cursorColor: #f81141
+! 
+! *color0: #4a505d
+! *color1: #f81141
+! *color2: #23974a
+! *color3: #fd7e57
+! *color4: #285bff
+! *color5: #8c62fd
+! *color6: #366f9a
+! *color7: #ccd5e5
+! 
+! *color8:  #61697a
+! *color9:  #fc4a6d
+! *color10: #37bd58
+! *color11: #f6be48
+! *color12: #199ffd
+! *color13: #fc58f6
+! *color14: #50acae
+! *color15: #ffffff
+! 
+! Lighthaus Color theme for Xresources
+! GIT: https://github.com/lighthaus-theme/xresources
+! Author: Adhiraj Sirohi (https://github.com/brutuski)
+!         Vasundhara Sharma (https://github.com/vasundhasauras)
 
-*color0: #18191E
-*color1: #FC2929
-*color2: #44B273
-*color3: #E25600
-*color4: #1D918B
-*color5: #D16BB7
-*color6: #00BFA4
-*color7: #CCCCCC
+! Copyright © 2020-Present Lighthaus Theme
+! Copyright © 2020-Present Adhiraj Sirohi
+! Copyright © 2020-Present Vasundhara Sharma
 
-*color8:  #21252D
-*color9:  #FF5050
-*color10: #50C16E
-*color11: #ED722E
-*color12: #47A8A1
-*color13: #D68EB2
-*color14: #5AD1AA
-*color15: #FFFADE
+
+! SPECIAL
+*.foreground:   #FFEE79
+*.background:   #18191E
+*.cursorColor:  #FFFF00
+
+! BLACK
+*.color0:       #18191E
+*.color8:       #21252D
+
+! RED
+*.color1:       #FC2929
+*.color9:       #FC5050
+
+! GREEN
+*.color2:       #44B273
+*.color10:      #50C16E
+
+! ORANGE
+*.color3:       #E25600
+*.color11:      #ED722E
+
+! BLUE
+*.color4:       #1D918B
+*.color12:      #47A8A1
+
+! PURPLE
+*.color5:       #D16BB7
+*.color13:      #D68EB2
+
+! CYAN
+*.color6:       #00BFA4
+*.color14:      #5AD1AA
+
+! WHITE
+*.color7:       #CCCCCC
+*.color15:      #FFFADE
