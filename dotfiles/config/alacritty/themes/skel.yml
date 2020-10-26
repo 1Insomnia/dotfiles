@@ -1,0 +1,34 @@
+# Name : A GOOD NAME
+
+colors:
+  # Default colors
+  primary:
+    background: '#'
+    foreground: '#'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text:   '#'
+    cursor: '#'
+
+  # Normal colors
+  normal:
+    black:   '#'
+    red:     '#'
+    green:   '#'
+    yellow:  '#'
+    blue:    '#'
+    magenta: '#'
+    cyan:    '#'
+    white:   '#'
+
+  # Bright colors
+  bright:
+    black:   '#'
+    red:     '#'
+    green:   '#'
+    yellow:  '#'
+    blue:    '#'
+    magenta: '#'
+    cyan:    '#'
+    white:   '#'

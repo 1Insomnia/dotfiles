@@ -1,0 +1,34 @@
+# Name : Paper Twist
+
+colors:
+  # Default colors
+  primary:
+    background: '#d9d9d9'
+    foreground: '#000000'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text:   '#b9c9bc'
+    cursor: '#000000'
+
+  # Normal colors
+  normal:
+    black:   '#EDEDED'
+    red:     '#D7005F'
+    green:   '#718C00'
+    yellow:  '#D75F00'
+    blue:    '#4271AE'
+    magenta: '#8959A8'
+    cyan:    '#3E999F'
+    white:   '#d9d9d9'
+
+  # Bright colors
+  bright:
+    black:   '#969694'
+    red:     '#D7005F'
+    green:   '#718C00'
+    yellow:  '#D75F00'
+    blue:    '#4271AE'
+    magenta: '#8959A8'
+    cyan:    '#3E999F'
+    white:   '#F5F5F5'
