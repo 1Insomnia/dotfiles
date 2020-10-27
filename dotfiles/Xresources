@@ -13,96 +13,96 @@ Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
 ! One Dark
-/* *foreground:  #abb2bf */ 
-/* *background:  #282c34 */
-/* *cursorColor: #d19a66 */
+!*.foreground:  #abb2bf
+!*.background:  #282c34
+!*.cursorColor: #d19a66
 
-/* *color0: #1e2127 */
-/* *color1: #e06c75 */
-/* *color2: #98c379 */
-/* *color3: #d19a66 */
-/* *color4: #61afef */
-/* *color5: #c678dd */
-/* *color6: #56b6c2 */
-/* *color7: #828791 */
+!*.color0: #1e2127
+!*.color1: #e06c75
+!*.color2: #98c379
+!*.color3: #d19a66
+!*.color4: #61afef
+!*.color5: #c678dd
+!*.color6: #56b6c2
+!*.color7: #828791
 
-/* *color8:  #5c6370 */
-/* *color9:  #e06c75 */
-/* *color10: #98c379 */
-/* *color11: #d19a66 */
-/* *color12: #61afef */
-/* *color13: #c678dd */
-/* *color14: #56b6c2 */
-/* *color15: #e6efff */
+!*.color8:  #5c6370
+!*.color9:  #e06c75
+!*.color10: #98c379
+!*.color11: #d19a66
+!*.color12: #61afef
+!*.color13: #c678dd
+!*.color14: #56b6c2
+!*.color15: #e6efff
 
 ! TokyoNight 
-! *foreground: #a9b1d6 
-! *background: #1a1b26 
-! *cursorColor: #e06c75
+! *.foreground: #a9b1d6 
+! *.background: #1a1b26 
+! *.cursorColor: #e06c75
 ! 
-! *color0: #32344a 
-! *color1: #f7768e 
-! *color2: #9ece6a 
-! *color3: #e0af68 
-! *color4: #7aa2f7 
-! *color5: #ad8ee6 
-! *color6: #449dab 
-! *color7: #787c99 
+! *.color0: #32344a 
+! *.color1: #f7768e 
+! *.color2: #9ece6a 
+! *.color3: #e0af68 
+! *.color4: #7aa2f7 
+! *.color5: #ad8ee6 
+! *.color6: #449dab 
+! *.color7: #787c99 
 ! 
-! *color8:  #444b6a
-! *color9:  #ff7a93
-! *color10: #b9f27c
-! *color11: #ff9e64
-! *color12: #7da6ff
-! *color13: #bb9af7
-! *color14: #0db9d7
-! *color15: #acb0d0
+! *.color8:  #444b6a
+! *.color9:  #ff7a93
+! *.color10: #b9f27c
+! *.color11: #ff9e64
+! *.color12: #7da6ff
+! *.color13: #bb9af7
+! *.color14: #0db9d7
+! *.color15: #acb0d0
 ! 
 ! LightHaus
-! *foreground:  #FFEE79
-! *background:  #18191E
-! *cursorColor: #FFFF00
+! *.foreground:  #FFEE79
+! *.background:  #18191E
+! *.cursorColor: #FFFF00
 ! 
-! *color0: #18191E
-! *color1: #FC2929
-! *color2: #44B273
-! *color3: #E25600
-! *color4: #1D918B
-! *color5: #D16BB7
-! *color6: #00BFA4
-! *color7: #CCCCCC
+! *.color0: #18191E
+! *.color1: #FC2929
+! *.color2: #44B273
+! *.color3: #E25600
+! *.color4: #1D918B
+! *.color5: #D16BB7
+! *.color6: #00BFA4
+! *.color7: #CCCCCC
 ! 
-! *color8:  #21252D
-! *color9:  #FF5050
-! *color10: #50C16E
-! *color11: #ED722E
-! *color12: #47A8A1
-! *color13: #D68EB2
-! *color14: #5AD1AA
-! *color15: #FFFADE
+! *.color8:  #21252D
+! *.color9:  #FF5050
+! *.color10: #50C16E
+! *.color11: #ED722E
+! *.color12: #47A8A1
+! *.color13: #D68EB2
+! *.color14: #5AD1AA
+! *.color15: #FFFADE
 ! 
 ! BluLocoDark */
-! *foreground:  #abb2bf
-! *background:  #282c34
-! *cursorColor: #f81141
+! *.foreground:  #abb2bf
+! *.background:  #282c34
+! *.cursorColor: #f81141
 ! 
-! *color0: #4a505d
-! *color1: #f81141
-! *color2: #23974a
-! *color3: #fd7e57
-! *color4: #285bff
-! *color5: #8c62fd
-! *color6: #366f9a
-! *color7: #ccd5e5
+! *.color0: #4a505d
+! *.color1: #f81141
+! *.color2: #23974a
+! *.color3: #fd7e57
+! *.color4: #285bff
+! *.color5: #8c62fd
+! *.color6: #366f9a
+! *.color7: #ccd5e5
 ! 
-! *color8:  #61697a
-! *color9:  #fc4a6d
-! *color10: #37bd58
-! *color11: #f6be48
-! *color12: #199ffd
-! *color13: #fc58f6
-! *color14: #50acae
-! *color15: #ffffff
+! *.color8:  #61697a
+! *.color9:  #fc4a6d
+! *.color10: #37bd58
+! *.color11: #f6be48
+! *.color12: #199ffd
+! *.color13: #fc58f6
+! *.color14: #50acae
+! *.color15: #ffffff
 ! 
 ! Lighthaus Color theme for Xresources
 ! GIT: https://github.com/lighthaus-theme/xresources
@@ -112,41 +112,70 @@ Xft.lcdfilter: lcddefault
 ! Copyright © 2020-Present Lighthaus Theme
 ! Copyright © 2020-Present Adhiraj Sirohi
 ! Copyright © 2020-Present Vasundhara Sharma
-
-
 ! SPECIAL
-*.foreground:   #FFEE79
-*.background:   #18191E
-*.cursorColor:  #FFFF00
+! *.foreground:   #FFEE79
+! *.background:   #18191E
+! *.cursorColor:  #FFFF00
+! 
+! *.color0:       #18191E
+! *.color1:       #FC2929
+! *.color2:       #44B273
+! *.color3:       #E25600
+! *.color4:       #1D918B
+! *.color5:       #D16BB7
+! *.color6:       #00BFA4
+! *.color7:       #CCCCCC
 
-! BLACK
-*.color0:       #18191E
-*.color8:       #21252D
+! *.color8:       #21252D
+! *.color9:       #FC5050
+! *.color10:      #50C16E
+! *.color11:      #ED722E
+! *.color12:      #47A8A1
+! *.color13:      #D68EB2
+! *.color14:      #5AD1AA
+! *.color15:      #FFFADE
 
-! RED
-*.color1:       #FC2929
-*.color9:       #FC5050
+! Gruvbox light / Material
+! SPECIAL
+!*.foreground:   #654735
+!*.background:   #f9f5d7
+!
+!*.color0:       #654735
+!*.color1:       #c14a4a
+!*.color2:       #6c782e
+!*.color3:       #b47109
+!*.color4:       #45707a
+!*.color5:       #945e80
+!*.color6:       #4c7a5d
+!*.color7:       #928374
+!
+!*.color8:       #654735
+!*.color9:       #c14a4a
+!*.color10:      #6c782e
+!*.color11:      #b47109
+!*.color12:      #45707a
+!*.color13:      #945e80
+!*.color14:      #4c7a5d
+!*.color15:      #928374
 
-! GREEN
-*.color2:       #44B273
-*.color10:      #50C16E
+! Gruvbox Dark / Material
+*.foreground:   #282828
+*.background:   #d4be98
 
-! ORANGE
-*.color3:       #E25600
-*.color11:      #ED722E
+*.color0:       #282828
+*.color1:       #ea6962
+*.color2:       #a9b665
+*.color3:       #d8a657
+*.color4:       #7daea3
+*.color5:       #d3869b
+*.color6:       #89b482
+*.color7:       #d4be98
 
-! BLUE
-*.color4:       #1D918B
-*.color12:      #47A8A1
-
-! PURPLE
-*.color5:       #D16BB7
-*.color13:      #D68EB2
-
-! CYAN
-*.color6:       #00BFA4
-*.color14:      #5AD1AA
-
-! WHITE
-*.color7:       #CCCCCC
-*.color15:      #FFFADE
+*.color8:       #282828
+*.color9:       #ea6962
+*.color10:      #a9b665
+*.color11:      #d8a657
+*.color12:      #7daea3
+*.color13:      #d3869b
+*.color14:      #89b482
+*.color15:      #d4be98

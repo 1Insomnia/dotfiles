@@ -1,0 +1,79 @@
+# {{{Color Schemes
+schemes:
+# {{{ Gruvbox Material Dark
+  gruvbox_material_dark: &gruvbox_material_dark
+    primary:
+      background: '#282828'
+      foreground: '#d4be98'
+
+    normal:
+      black:   '#282828'
+      red:     '#ea6962'
+      green:   '#a9b665'
+      yellow:  '#d8a657'
+      blue:    '#7daea3'
+      magenta: '#d3869b'
+      cyan:    '#89b482'
+      white:   '#d4be98'
+
+    bright:
+      black:   '#282828'
+      red:     '#ea6962'
+      green:   '#a9b665'
+      yellow:  '#d8a657'
+      blue:    '#7daea3'
+      magenta: '#d3869b'
+      cyan:    '#89b482'
+      white:   '#d4be98'
+# }}}
+# {{{ Gruvbox Mix Dark
+  gruvbox_mix_dark: &gruvbox_mix_dark
+    primary:
+      background: '#282828'
+      foreground: '#e2cca9'
+
+    normal:
+      black:   '#504945'
+      red:     '#f2594b'
+      green:   '#b0b846'
+      yellow:  '#e9b143'
+      blue:    '#80aa9e'
+      magenta: '#d3869b'
+      cyan:    '#8bba7f'
+      white:   '#e2cca9'
+
+    bright:
+      black:   '#504945'
+      red:     '#f2594b'
+      green:   '#b0b846'
+      yellow:  '#e9b143'
+      blue:    '#80aa9e'
+      magenta: '#d3869b'
+      cyan:    '#8bba7f'
+      white:   '#e2cca9'
+# }}}
+# {{{ Gruvbox Material Light
+  gruvbox_material_light: &gruvbox_material_light
+    primary:
+      background: '#f2e5bc'
+      foreground: '#654735'
+
+    normal:
+      black:   '#654735'
+      red:     '#c14a4a'
+      green:   '#6c782e'
+      yellow:  '#b47109'
+      blue:    '#45707a'
+      magenta: '#945e80'
+      cyan:    '#4c7a5d'
+      white:   '#928374'
+
+    bright:
+      black:   '#654735'
+      red:     '#c14a4a'
+      green:   '#6c782e'
+      yellow:  '#b47109'
+      blue:    '#45707a'
+      magenta: '#945e80'
+      cyan:    '#4c7a5d'
+      white:   '#928374'
