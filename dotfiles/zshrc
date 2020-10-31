@@ -31,15 +31,12 @@ antigen bundle git
 antigen bundle pip
 #antigen bundle npm
 #antigen bundle z
-#antigen bundle fasd
 antigen bundle jump
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 # Theme
-#antigen theme geometry-zsh/geometry
+antigen theme geometry-zsh/geometry
 #antigen theme denysdovhan/spaceship-prompt
 antigen apply
 #source ~/.oh-my-zsh/custom/themes/jovial.zsh-theme
-eval "$(fasd --init auto)"
-eval "$(starship init zsh)"
 source ~/.config/zsh/aliases

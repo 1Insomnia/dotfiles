@@ -8,7 +8,7 @@ set $alt Mod1
 focus_follows_mouse no
 
 # Police à utiliser
-font pango: Cozette 12
+font pango: sans 12
 
 ###############################
 #         KEYBINDING          #
@@ -17,7 +17,7 @@ font pango: Cozette 12
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+c kill
@@ -127,8 +127,8 @@ set $ws7  "7"
 set $ws8  "8"
 set $ws9  "9"
 set $ws10 "0"
-set $monitorLeft eDP1
-set $monitorRight HDMI1
+set $monitorLeft eDP-1-1
+set $monitorRight HDMI-0
 
 # Ecran associé à chaque Workspace
 workspace $ws1 output $monitorRight
@@ -188,10 +188,10 @@ client.background       #abb2bf
 ###############################
 #          STARTUP            #
 ###############################
-exec --no-startup-id dropbox
-exec --no-startup-id dunst
+#exec --no-startup-id dropbox
+#exec --no-startup-id dunst
 #exec --no-startup-id picom
-exec --no-startup-id xrandr --output HDMI1 --auto --right-of eDP1
+exec --no-startup-id xrandr --output HDMI-0 --auto --right-of eDP-1-1
 exec --no-startup-id feh --bg-scale ~/.config/i3/walls/otone.png
 # Pamac Manager a besoin de ça pour gérer l'authentification
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
@@ -199,11 +199,6 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # I3 Gaps
 for_window [class="^.*"] border pixel 3
 for_window [class=".*"] title_format "  %title"
-
-smart_borders on
-
-gaps inner 10
-gaps outer 10
 
 #gaps inner 10
 # Redémarre polybar quand on redémarre i3
