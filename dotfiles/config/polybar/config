@@ -166,7 +166,7 @@ full-at = 98
 format-charging = <ramp-capacity>
 format-discharging = <ramp-capacity>
 
-label-full =  
+label-full =  
 label-full-foreground = ${colors.fourth}
 
 ramp-capacity-0 = 
