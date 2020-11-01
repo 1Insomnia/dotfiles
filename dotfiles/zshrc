@@ -38,5 +38,4 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen theme geometry-zsh/geometry
 #antigen theme denysdovhan/spaceship-prompt
 antigen apply
-#source ~/.oh-my-zsh/custom/themes/jovial.zsh-theme
 source ~/.config/zsh/aliases

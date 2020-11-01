@@ -12,15 +12,11 @@ alias code="code-insiders"
 alias libre="libreoffice"
 
 # Replace ls with exa
-# alias ls="exa"
-# alias ll="exa -l"
-# alias la="exa -la"
-# alias lah="exa -lah"
+alias ls="exa"
+alias ll="exa -l"
+alias la="exa -la"
+alias lah="exa -lah"
 
-alias ls="lsd"
-alias ll="lsd -l"
-alias la="lsd -la"
-alias lah="lsd -lah"
 # config files access
 alias zconf="nvim ~/.zshrc"
 alias iconf="nvim ~/.config/i3/config"
@@ -48,7 +44,7 @@ alias remote="git remote -v"
 alias checkout="git checkout"
 
 # Dotdrop
-alias dot='/home/r0b0t/dotfiles/dotdrop.sh --cfg=/home/r0b0t/dotfiles/config.yaml'
+alias dot='/home/prim0rdial/dotfiles/dotdrop.sh --cfg=/home/prim0rdial/dotfiles/config.yaml'
 
 # Misc
 alias p3="python3"
