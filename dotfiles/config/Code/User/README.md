@@ -15,6 +15,7 @@
   Comme son nom l'indique. Rename les pairs tag automatiquement.
 
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+  **Besoin de** [nodejs](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
 
   Format votre code automatique de façon opiniated mais vous pouvez configurer certains paramètres.
   **Alternative** [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
