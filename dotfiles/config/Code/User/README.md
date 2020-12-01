@@ -8,7 +8,11 @@
 
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 
-  Ferme les balise html automatiquement. Rename les balises qui match juste en changeant une seule.
+  Ferme les balise html;xml automatiquement.
+
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+  
+  Comme son nom l'indique. Rename les pairs tag automatiquement.
 
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
